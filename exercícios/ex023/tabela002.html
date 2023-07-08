@@ -26,8 +26,13 @@
             padding: 10px;
         }
 
+        tbody tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
         td:nth-child(2) {
             text-align: right;
+            width: 50px;
         }
 
         thead, tfoot {
@@ -160,7 +165,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th class="row">Total de Habitantes</th>
                 <td><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
