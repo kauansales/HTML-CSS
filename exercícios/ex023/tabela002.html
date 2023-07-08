@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -22,7 +23,7 @@
         }
 
         td, th {
-            border: 1px solid black;
+            border: 1px solid rgb(74, 74, 74);
             padding: 10px;
         }
 
@@ -38,6 +39,12 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th  {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(74, 74, 74);
         }
     </style>
 </head>
